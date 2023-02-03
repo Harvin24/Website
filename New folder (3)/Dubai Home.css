@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #EAC993;
+}
+
+#sidebar ul {
+	position: fixed;
+	display: block;
+	top: 0;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	background-color: #F18E3C
+}
+
+#sidebar ul li {
+	list-style: none;
+	display: inline;
+	color: #000;
+	padding-left: 60px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-right: 60px;
+}
+
+#sidebar li:hover {
+	background-color: #FF7400;
+}
+
+h1 {
+	position: absolute;
+	top: 30%;
+	left: 32%;
+	font-size: 160px;
+	color: #EC9D00;
+}
+	
+h2 {
+	position: absolute;
+	top: 60%;
+	left: 32%;
+	font-size: 70px;
+	color: #ECCC00
+}
+
+#pic {
+	position: absolute;
+	top: 120%;
+	left: 6%;
+		
+}
+
+#pic img {
+	border-radius: 4%;
+	border: 10px solid #C4833A;
+}
+
+#square {
+	height: 600px;
+	width: 1480px;
+	background-color: #FFAA63;
+	position: absolute;
+	top: 108%;
+	left: 18px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#intro {
+	position: absolute;
+	top: 12%;
+	left: 600px;
+	width: 800px;
+	font-size: 17px;
+}
+
+#east {
+	position: absolute;
+	top: 31%;
+	left: 600px;
+	width: 800px;
+	font-size: 17px;
+}
+
+#history {
+	position: absolute;
+	top: 51%;
+	left: 40.5%;
+	width: 800px;
+	font-size: 17px;
+}
+
+#area {
+	position: absolute;
+	top: 75%;
+	left: 5%;
+	width: 1325px;
+	font-size: 17px;
+}
+	
+

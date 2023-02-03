@@ -1,0 +1,382 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #EAC993;
+	padding-bottom: 200px;
+}
+
+#sidebar ul {
+	position: fixed;
+	display: block;
+	top: 0;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	background-color: #F18E3C
+}
+
+#sidebar ul li {
+	list-style: none;
+	display: inline;
+	color: #000;
+	padding-left: 60px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-right: 60px;
+}
+
+#sidebar li:hover {
+	background-color: #FF7400;
+}
+
+h1 {
+	position: absolute;
+	top: 35%;
+	left: 26.5%;
+	font-size: 120px;
+	color: #EC7600;
+}
+	
+h2 {
+	position: absolute;
+	top: 60%;
+	left: 28.5%;
+	font-size: 70px;
+	color: #DEC314;
+}
+
+#Activity1 {
+	position: absolute;
+	border: 8px solid #E89237;
+	left: 100px;
+	top: 803px;
+}
+
+#desc1 {
+	position: absolute;
+	top: 800px;
+	left: 400px;
+	width: 1010px;
+	height: 270px;
+	background-color: #F7B772;
+	border: 8px solid #E89237;
+}
+
+#Activity2 {
+	position: absolute;
+	border: 8px solid #E89237;
+	left: 1150px;
+	top: 1154px;
+}
+
+#desc2 {
+	position: absolute;
+	top: 1150px;
+	left: 100px;
+	width: 1010px;
+	height: 270px;
+	background-color: #F7B772;
+	border: 8px solid #E89237;
+}
+
+#Activity3 {
+	position: absolute;
+	border: 8px solid #E89237;
+	left: 100px;
+	top: 1504px;
+}
+
+#desc3 {
+	position: absolute;
+	top: 1500px;
+	left: 400px;
+	width: 1010px;
+	height: 270px;
+	background-color: #F7B772;
+	border: 8px solid #E89237;
+}
+
+#Activity4 {
+	position: absolute;
+	border: 8px solid #E89237;
+	left: 1150px;
+	top: 1864px;
+}
+
+#desc4 {
+	position: absolute;
+	top: 1860px;
+	left: 100px;
+	width: 1010px;
+	height: 270px;
+	background-color: #F7B772;
+	border: 8px solid #E89237;
+}
+
+#Activity5 {
+	position: absolute;
+	border: 8px solid #E89237;
+	left: 100px;
+	top: 2225px;
+}
+
+#desc5 {
+	position: absolute;
+	top: 2225px;
+	left: 400px;
+	width: 1010px;
+	height: 270px;
+	background-color: #F7B772;
+	border: 8px solid #E89237;
+}
+
+#Activity6 {
+	position: absolute;
+	border: 8px solid #E89237;
+	left: 1150px;
+	top: 2590px;
+}
+
+#desc6 {
+	position: absolute;
+	top: 2590px;
+	left: 100px;
+	width: 1010px;
+	height: 270px;
+	background-color: #F7B772;
+	border: 8px solid #E89237;
+}
+
+#desc1 h1 {
+	position: absolute;
+	font-size: 30px;
+	top: 10px;
+	left: 16px;
+	color: black;
+}
+
+#desc1 h3 {
+	position: absolute;
+	top: 78px;
+	margin: 15px;
+	font-size: 16px;
+	width: 85%;
+}
+
+#desc1 h2 {
+	position: absolute;
+	font-size: 50px;
+	top: 175px;
+	left: 40px;
+	color: black;
+}
+
+#desc1 h4 {
+	position: absolute;
+	left: 104px;
+	top: 225px;
+	font-size: 18px
+}
+
+#desc1 a {
+	position: absolute;
+	top: 200px;
+	left: 300px
+}
+
+
+#desc2 h1 {
+	position: absolute;
+	font-size: 30px;
+	top: 10px;
+	left: 16px;
+	color: black;
+}
+
+#desc2 h3 {
+	position: absolute;
+	top: 50px;
+	margin: 15px;
+	font-size: 16px;
+	width: 85%;
+}
+
+#desc2 h2 {
+	position: absolute;
+	font-size: 50px;
+	top: 170px;
+	left: 40px;
+	color: black;
+}
+
+#desc2 h4 {
+	position: absolute;
+	left: 130px;
+	top: 220px;
+	font-size: 18px
+}
+
+#desc2 a {
+	position: absolute;
+	top: 195px;
+	left: 300px
+}
+
+
+#desc3 h1 {
+	position: absolute;
+	font-size: 30px;
+	top: 10px;
+	left: 16px;
+	color: black;
+}
+
+#desc3 h3 {
+	position: absolute;
+	top: 56px;
+	margin: 15px;
+	font-size: 16px;
+	width: 85%;
+}
+
+#desc3 h2 {
+	position: absolute;
+	font-size: 50px;
+	top: 160px;
+	left: 40px;
+	color: black;
+}
+
+#desc3 h4 {
+	position: absolute;
+	left: 92px;
+	top: 210px;
+	font-size: 18px
+}
+
+#desc3 a {
+	position: absolute;
+	top: 180px;
+	left: 300px
+}
+
+
+#desc4 h1 {
+	position: absolute;
+	font-size: 30px;
+	top: 10px;
+	left: 16px;
+	color: black;
+}
+
+#desc4 h3 {
+	position: absolute;
+	top: 56px;
+	margin: 15px;
+	font-size: 16px;
+	width: 85%;
+}
+
+#desc4 h2 {
+	position: absolute;
+	font-size: 50px;
+	top: 165px;
+	left: 40px;
+	color: black;
+}
+
+#desc4 h4 {
+	position: absolute;
+	left: 92px;
+	top: 215px;
+	font-size: 18px
+}
+
+#desc4 a {
+	position: absolute;
+	top: 190px;
+	left: 300px
+}
+
+
+#desc5 h1 {
+	position: absolute;
+	font-size: 30px;
+	top: 10px;
+	left: 16px;
+	color: black;
+}
+
+#desc5 h3 {
+	position: absolute;
+	top: 54px;
+	margin: 15px;
+	font-size: 16px;
+	width: 85%;
+}
+
+#desc5 h2 {
+	position: absolute;
+	font-size: 50px;
+	top: 150px;
+	left: 40px;
+	color: black;
+}
+
+#desc5 h4 {
+	position: absolute;
+	left: 104px;
+	top: 202px;
+	font-size: 18px
+}
+
+#desc5 a {
+	position: absolute;
+	top: 170px;
+	left: 300px
+}
+
+
+#desc6 h1 {
+	position: absolute;
+	font-size: 30px;
+	top: 10px;
+	left: 16px;
+	color: black;
+}
+
+#desc6 h3 {
+	position: absolute;
+	top: 55px;
+	margin: 15px;
+	font-size: 16px;
+	width: 85%;
+}
+
+#desc6 h2 {
+	position: absolute;
+	font-size: 50px;
+	top: 160px;
+	left: 40px;
+	color: black;
+}
+
+#desc6 h4 {
+	position: absolute;
+	left: 104px;
+	top: 212px;
+	font-size: 18px
+}
+
+#desc6 a {
+	position: absolute;
+	top: 180px;
+	left: 300px
+}

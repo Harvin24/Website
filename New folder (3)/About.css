@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 200px;
+}
+
+body {
+	background-color: #9AF0D0;
+	
+}
+
+#sidebar ul {
+	position: fixed;
+	display: block;
+	top: 0;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	background-color: #006F46;
+	opacity: 100%;
+}
+
+#sidebar ul li {
+	list-style: none;
+	display: inline;
+	color: #000;
+	padding-left: 60px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-right: 60px;
+}
+
+#sidebar li:hover {
+	background-color: #00633E;
+}
+
+img {
+	position: absolute;
+	top: 60px;
+}
+
+h1 {
+	position: absolute;
+	top: 35%;
+	left: 26%;
+	font-size: 160px;
+	color: #1AE198;
+}
+
+#mypic {
+	position: absolute;
+	top: 800px;
+	left: 600px;
+}
+
+#name {
+	position: absolute;
+	top: 1300px;
+	left: 590px;
+	font-size: 40px;
+}
+
+#number {
+	position: absolute;
+	top: 1450px;
+	left: 595px;
+	font-size: 40px;
+}
+
+#email {
+	position: absolute;
+	top: 1600px;
+	left: 420px;
+	font-size: 40px;
+}
+
+#insta {
+	position: absolute;
+	top: 1750px;
+	left: 420px;
+	font-size: 40px;
+}
+
+#insta h3 {
+	position: absolute;
+	left: 240px;
+	font-size: 40px;
+}
+
+#insta a {
+	position: absolute;
+	top: 50px;
+	left: 65px;
+	font-size: 40px;
+}
+
+#fb {
+	position: absolute;
+	top: 1950px;
+	left: 415px;
+	font-size: 40px;
+}
+
+#fb h3 {
+	position: absolute;
+	left: 250px;
+	font-size: 40px;
+}
+
+#fb a {
+	position: absolute;
+	top: 50px;
+	left: 95px;
+	font-size: 40px;
+}
+
+#tweet {
+	position: absolute;
+	top: 2150px;
+	left: 415px;
+	font-size: 40px;
+}
+
+#tweet h3 {
+	position: absolute;
+	left: 270px;
+	font-size: 40px;
+}
+
+#tweet a {
+	position: absolute;
+	top: 50px;
+	left: 120px;
+	font-size: 40px;
+}
+
+h4 {
+	position: absolute;
+	top: 2200px;
+	left: 200px;
+	font-size: 12px;
+}
